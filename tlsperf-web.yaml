@@ -113,5 +113,5 @@ spec:
     - protocol: TCP
       port: 8887
       targetPort: 8887
-      nodePort: 30029
+      nodePort: 30009
       name: ws
