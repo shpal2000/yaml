@@ -70,7 +70,7 @@ spec:
         - name: SPORT
           value: "7000"
         - name: STATS_TICKS
-          value: "2"
+          value: "20"
     - name: tlsperf-frontend
       image: tlspack/tlsperf:latest
       imagePullPolicy: Always
