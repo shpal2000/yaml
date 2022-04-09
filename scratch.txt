@@ -139,3 +139,25 @@ sudo resize2fs /dev/xvda1
 lsblk
 
 df -h
+
+
+----
+
+sudo apt install tshark
+
+#allow all to capture
+
+sudo chmod +x /usr/bin/dumpcap
+
+
+----
+
+ubuntu upgrade
+
+sudo apt update && sudo apt upgrade
+sudo reboot
+sudo apt install update-manager-core
+sudo do-release-upgrade
+sudo reboot
+
+----
